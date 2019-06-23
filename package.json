@@ -1,0 +1,14 @@
+{
+  "name": "breadcrumbstore",
+  "version": "0.0.0",
+  "description": "Bread is a simple key store built using typescript",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.0.10"
+  }
+}
