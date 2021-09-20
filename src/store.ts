@@ -38,6 +38,11 @@ export default class Store
         return result
     }
 
+    dump()
+    {
+        return this.map.values;
+    }
+
     private read()
     {
         let data = fs.readFileSync('./' + this.name, 'utf8')
